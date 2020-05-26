@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         val alert = AlertDialog.Builder(this)
         val editText = EditText(applicationContext)
         editText.hint = "Enter Text"
-        alert.setTitle("New Note")
+        alert.setTitle("New Data")
         alert.setView(editText)
 
         alert.setPositiveButton("save"){ dialog, _ ->
